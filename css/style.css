@@ -67,15 +67,20 @@ body {
   width: 100%;
 }
 
-.link-box {
+.social-media-link:link,
+.social-media-link:visited {
   background-color: hsl(0, 0%, 20%);
-  padding: 1rem 6.4rem;
   border-radius: 5px;
-}
-
-.social-media-link {
+  display: block;
   text-decoration: none;
   color: inherit;
   font-size: 1.2rem;
   font-weight: 600;
+  padding: 1rem 6.4rem;
+}
+
+.social-media-link:hover,
+.social-media-link:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
 }
