@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.social-media-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 12%);
+  max-width: 50rem;
+  padding: 3.6rem;
+  border-radius: 10px;
+}
+
+.social-media-avatar {
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
+}
+
+.social-media-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.location {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 2.4rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.social-media-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.link-box {
+  background-color: hsl(0, 0%, 20%);
+  padding: 1rem 6.4rem;
+  border-radius: 5px;
+}
+
+.social-media-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
